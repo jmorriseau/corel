@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./index.css";
+import { Header, Hero, HeroText, HeroImage, Footer } from "./components";
+import NavItems from "./constants/navmenu.json";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header nav={NavItems} />
+      <main className="main-content">
+        <p>lorem15</p>
+        <Hero>
+          <HeroText>
+            <h1>Header here</h1>
+            <p>Some text to supplement</p>
+            <p>Some text to supplement</p>
+            <p>Some text to supplement</p>
+
+            <button>Button text</button>
+          </HeroText>
+          <HeroImage src="https://image.freepik.com/free-vector/group-business-people-avatar-character_24877-57314.jpg" />
+        </Hero>
+      </main>
+      <Footer nav={NavItems} />
+    </>
   );
 }
-
-export default App;

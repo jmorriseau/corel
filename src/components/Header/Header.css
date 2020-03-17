@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav a {
+    margin-left: 1.5rem;
+  }
+  header nav a:first-child {
+    margin-left: 0;
+  }
+  header img {
+    max-width: 400px;
+    max-height: 150px;
+  }
+  
