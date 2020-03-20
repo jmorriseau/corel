@@ -5,9 +5,14 @@
       "active": true
     },
     {
-      "name": "about",
+      "name": "about us",
       "url": "#",
-      "active": false
+      "active": true
+    },
+    {
+      "name": "pricing",
+      "url": "#",
+      "active": true
     },
     {
       "name": "contact",
