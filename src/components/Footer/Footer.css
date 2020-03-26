@@ -3,9 +3,13 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #D26363;
+    color: #fff;
+    height: 250px;
   }
   footer nav a {
     margin-left: 1.5rem;
+    color: inherit;
   }
   footer nav a:first-child {
     margin-left: 0;
