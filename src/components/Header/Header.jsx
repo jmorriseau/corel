@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Header.css";
-import {  Link } from '@material-ui/core';
+import { Link } from '@material-ui/core';
 
 class Header extends Component {
   componentDidMount(){

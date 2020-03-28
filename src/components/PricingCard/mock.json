@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Tier One",
+        "price": "$500",
+        "features": [
+            "something one",
+            "something two",
+            "something three",
+            "something four"
+        ]
+
+    },
+    {
+        "title": "Tier Two",
+        "price": "$1,000",
+        "features": [
+            "something one",
+            "something two",
+            "something three",
+            "something four"
+        ]
+
+    },
+    {
+        "title": "Tier Three",
+        "price": "$1,250+",
+        "features": [
+            "something one",
+            "something two",
+            "something three",
+            "something four"
+        ]
+
+    }
+]
