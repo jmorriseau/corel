@@ -14,7 +14,22 @@ export default function App() {
       {console.log(theme)}
       <Header nav={NavItems} />
       <main className="main-content">
-        
+        <div className="container">
+        <Typography variant="h1">Lorem ipsum dolor sit amet.</Typography>
+        <Typography variant="h2">Lorem ipsum dolor sit amet.</Typography>
+        <Typography variant="h3">Lorem ipsum dolor sit amet.</Typography>
+        <Typography variant="h4">Lorem ipsum dolor sit amet.</Typography>
+        <Typography variant="h5">Lorem ipsum dolor sit amet.</Typography>
+        <Typography variant="h6">Lorem ipsum dolor sit amet.</Typography>
+        <Typography variant="body1">Lorem ipsum dolor sit amet consectetur.</Typography>
+        <Typography variant="body2">Lorem ipsum dolor sit amet consectetur.</Typography>
+        <Typography variant="subtitle1">Lorem ipsum dolor sit amet.</Typography>
+        <Typography variant="subtitle2">Lorem ipsum dolor sit amet.</Typography>
+        <Typography variant="caption">Lorem ipsum dolor sit amet.</Typography>
+        <Typography variant="overline">Lorem ipsum dolor sit amet.</Typography>
+
+
+        </div>
         <Hero>
           <HeroText>
             <Typography variant="h1">Header here</Typography>

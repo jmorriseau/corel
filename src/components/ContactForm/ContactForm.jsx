@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './ContactForm.css';
 import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
+import { Typography, Button } from '@material-ui/core';
 
 class ContactForm extends Component {
     render(){
         return (
             <section className="contact-form-section">
                 <div className="contact-form">
-                <h1>Contact Us</h1>
+                <Typography variant="h1">Contact Us</Typography>
                 <form>
                     <TextField label="First Name"/>
                     <TextField label="Last Name"/>
